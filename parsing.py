@@ -36,7 +36,7 @@ new_urls.update(parse_HTML(get_html(URL)))
 final_all_links = []
 for i in new_urls:
     final_all_links.append(parse_HTML(get_html(i)))
-_input = input("Press P or F :").upper()
+_input = input("[+]-- p/ for print and f for  save in file\n\nPress P or F :").upper()
 if _input == 'P':
     print(mr_ninja, final_all_links)
 
